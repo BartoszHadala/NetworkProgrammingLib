@@ -1,0 +1,64 @@
+/* Custom styling for NetworkProgramming Library documentation */
+
+/* Center content with max width */
+body {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+#main-menu {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+#doc-content {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.contents {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px 40px;
+}
+
+/* Better spacing for main page */
+.textblock {
+    line-height: 1.6;
+}
+
+/* Center header */
+#top {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Better code blocks */
+div.fragment {
+    border-radius: 4px;
+    padding: 15px;
+}
+
+/* Improve readability */
+p, li {
+    line-height: 1.7;
+}
+
+/* Better section headers */
+h1, h2, h3 {
+    margin-top: 1.5em;
+    margin-bottom: 0.8em;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 1440px) {
+    body, #main-menu, #top {
+        max-width: 95%;
+    }
+    
+    .contents, #doc-content {
+        max-width: 90%;
+        padding: 15px 20px;
+    }
+}

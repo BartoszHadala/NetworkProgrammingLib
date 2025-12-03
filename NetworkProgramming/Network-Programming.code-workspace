@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../Network-Programming"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../NetworkLib"
+		}
+	],
+	"settings": {}
+}
