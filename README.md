@@ -53,26 +53,6 @@ make
 ./test_clientTCPdaytime 129.6.15.28 13
 ```
 
-### Key Classes
-
-- **Socket** - Low-level socket wrapper with automatic cleanup
-- **ServerTCP** - Server base class with virtual `run()` method
-- **ClientTCP** - Client base class for TCP connections
-- **ServerTCPdaytime** - Complete Daytime protocol server implementation
-- **ClientTCPdaytime** - Complete Daytime protocol client implementation
-
-## Error Handling
-
-All methods throw `std::runtime_error` on failure with detailed error messages:
-
-```cpp
-try {
-    bh::ServerTCP server(80);  // May fail if port in use
-} catch (const std::runtime_error& e) {
-    std::cerr << "Failed to create server: " << e.what() << '\n';
-}
-```
-
 ## Author
 
 Bartosz Hadała - Network Programming Library Project
